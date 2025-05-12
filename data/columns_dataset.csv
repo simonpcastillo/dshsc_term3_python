@@ -1,28 +1,28 @@
 column,health_dataset
 Immunisation: Hepatitis B_% of children immunised,immunisation
 Immunisation: Influenza_% of population aged 65 years and over,immunisation
-"Immunisation: Diphtheria, Tetanus, Pertussis_% of children immunised",immunisation
+Immunisation: Diphtheria_ Tetanus_ Pertussis_% of children immunised,immunisation
 Immunisation: Measles_% of children immunised,immunisation
 Dentists consultations (in all settings)_Number per capita,consultations
 Doctors consultations (in all settings)_Number per capita,consultations
-"Computed Tomography exams, total_Number",diagnostic_exams
-"Computed Tomography exams, total_Per 1 000 population",diagnostic_exams
-"Computed Tomography exams, total_Per scanner",diagnostic_exams
-"Magnetic Resonance Imaging exams, total_Number",diagnostic_exams
-"Magnetic Resonance Imaging exams, total_Per 1 000 population",diagnostic_exams
-"Magnetic Resonance Imaging exams, total_Per scanner",diagnostic_exams
-"Computed Tomography exams, in hospitals_Number",diagnostic_exams
-"Computed Tomography exams, in hospitals_Per 1 000 population",diagnostic_exams
-"Computed Tomography exams, in hospitals_Per scanner",diagnostic_exams
-"Computed Tomography exams, in ambulatory care_Number",diagnostic_exams
-"Computed Tomography exams, in ambulatory care_Per 1 000 population",diagnostic_exams
-"Computed Tomography exams, in ambulatory care_Per scanner",diagnostic_exams
-"Magnetic Resonance Imaging exams, in hospitals_Number",diagnostic_exams
-"Magnetic Resonance Imaging exams, in hospitals_Per 1 000 population",diagnostic_exams
-"Magnetic Resonance Imaging exams, in hospitals_Per scanner",diagnostic_exams
-"Magnetic Resonance Imaging exams, in ambulatory care_Number",diagnostic_exams
-"Magnetic Resonance Imaging exams, in ambulatory care_Per 1 000 population",diagnostic_exams
-"Magnetic Resonance Imaging exams, in ambulatory care_Per scanner",diagnostic_exams
+Computed Tomography exams_ total_Number,diagnostic_exams
+Computed Tomography exams_ total_Per 1 000 population,diagnostic_exams
+Computed Tomography exams_ total_Per scanner,diagnostic_exams
+Magnetic Resonance Imaging exams_ total_Number,diagnostic_exams
+Magnetic Resonance Imaging exams_ total_Per 1 000 population,diagnostic_exams
+Magnetic Resonance Imaging exams_ total_Per scanner,diagnostic_exams
+Computed Tomography exams_ in hospitals_Number,diagnostic_exams
+Computed Tomography exams_ in hospitals_Per 1 000 population,diagnostic_exams
+Computed Tomography exams_ in hospitals_Per scanner,diagnostic_exams
+Computed Tomography exams_ in ambulatory care_Number,diagnostic_exams
+Computed Tomography exams_ in ambulatory care_Per 1 000 population,diagnostic_exams
+Computed Tomography exams_ in ambulatory care_Per scanner,diagnostic_exams
+Magnetic Resonance Imaging exams_ in hospitals_Number,diagnostic_exams
+Magnetic Resonance Imaging exams_ in hospitals_Per 1 000 population,diagnostic_exams
+Magnetic Resonance Imaging exams_ in hospitals_Per scanner,diagnostic_exams
+Magnetic Resonance Imaging exams_ in ambulatory care_Number,diagnostic_exams
+Magnetic Resonance Imaging exams_ in ambulatory care_Per 1 000 population,diagnostic_exams
+Magnetic Resonance Imaging exams_ in ambulatory care_Per scanner,diagnostic_exams
 All causes_Days,healthcare_utilisation
 Infectious and parasitic diseases_Days,healthcare_utilisation
 Intestinal infectious diseases except diarrhoea_Days,healthcare_utilisation
@@ -32,8 +32,8 @@ Septicaemia_Days,healthcare_utilisation
 Human immunodeficiency virus (HIV) disease_Days,healthcare_utilisation
 Other infectious and parasitic diseases_Days,healthcare_utilisation
 Neoplasms_Days,healthcare_utilisation
-"Malignant neoplasm of colon, rectum and anus_Days",healthcare_utilisation
-"Malignant neoplasm of trachea, bronchus and lung_Days",healthcare_utilisation
+Malignant neoplasm of colon_ rectum and anus_Days,healthcare_utilisation
+Malignant neoplasm of trachea_ bronchus and lung_Days,healthcare_utilisation
 Malignant neoplasm of skin_Days,healthcare_utilisation
 Malignant neoplasm of breast_Days,healthcare_utilisation
 Malignant neoplasm of uterus_Days,healthcare_utilisation
@@ -42,20 +42,20 @@ Malignant neoplasm of prostate_Days,healthcare_utilisation
 Malignant neoplasm of bladder_Days,healthcare_utilisation
 Other Malignant neoplasms_Days,healthcare_utilisation
 Carcinoma in situ_Days,healthcare_utilisation
-"Benign neoplasm of colon, rectum and anus_Days",healthcare_utilisation
+Benign neoplasm of colon_ rectum and anus_Days,healthcare_utilisation
 Leiomyoma of uterus_Days,healthcare_utilisation
 Other Benign neoplasms and neoplasms of uncertain or unknown behaviour_Days,healthcare_utilisation
 Diseases of the blood and bloodforming organs_Days,healthcare_utilisation
 Anaemias_Days,healthcare_utilisation
 Other diseases of the blood and bloodforming organs_Days,healthcare_utilisation
-"Endocrine, nutritional and metabolic diseases_Days",healthcare_utilisation
+Endocrine_ nutritional and metabolic diseases_Days,healthcare_utilisation
 Diabetes mellitus_Days,healthcare_utilisation
-"Other endocrine, nutritional and metabolic diseases_Days",healthcare_utilisation
+Other endocrine_ nutritional and metabolic diseases_Days,healthcare_utilisation
 Mental and behavioural disorders_Days,healthcare_utilisation
 Dementia_Days,healthcare_utilisation
 Mental and behavioural disorders due to alcohol_Days,healthcare_utilisation
 Mental and behavioural disorders due to use of Other psychoactive substance_Days,healthcare_utilisation
-"Schizophrenia, schizotypal and delusional disorders_Days",healthcare_utilisation
+Schizophrenia_ schizotypal and delusional disorders_Days,healthcare_utilisation
 Mood (affective) disorders_Days,healthcare_utilisation
 Other Mental and behavioural disorders_Days,healthcare_utilisation
 Diseases of the nervous system_Days,healthcare_utilisation
@@ -91,7 +91,7 @@ Asthma_Days,healthcare_utilisation
 Other diseases of the respiratory system_Days,healthcare_utilisation
 Diseases of the digestive system_Days,healthcare_utilisation
 Disorders of teeth and supporting structures_Days,healthcare_utilisation
-"Other diseases of oral cavity, salivary glands and jaws_Days",healthcare_utilisation
+Other diseases of oral cavity_ salivary glands and jaws_Days,healthcare_utilisation
 Diseases of oesophagus_Days,healthcare_utilisation
 Peptic ulcer_Days,healthcare_utilisation
 Dyspepsia and Other diseases of stomach and duodenum_Days,healthcare_utilisation
@@ -112,7 +112,7 @@ Diseases of pancreas_Days,healthcare_utilisation
 Other diseases of the digestive system_Days,healthcare_utilisation
 Diseases of the skin and subcutaneous tissue_Days,healthcare_utilisation
 Infections of the skin and subcutaneous tissue_Days,healthcare_utilisation
-"Dermatitis, eczema and papulosquamous disorders_Days",healthcare_utilisation
+Dermatitis_ eczema and papulosquamous disorders_Days,healthcare_utilisation
 Other diseases of the skin and subcutaneous tissue_Days,healthcare_utilisation
 Diseases of musculoskeletal system and connective tissue_Days,healthcare_utilisation
 Coxarthrosis (arthrosis of hip)_Days,healthcare_utilisation
@@ -134,9 +134,9 @@ Hyperplasia of prostate_Days,healthcare_utilisation
 Other diseases of Male genital organs_Days,healthcare_utilisation
 Disorders of breast_Days,healthcare_utilisation
 Inflammatory diseases of Female pelvic organs_Days,healthcare_utilisation
-"Menstrual, menopausal and Other Female genital conditions_Days",healthcare_utilisation
+Menstrual_ menopausal and Other Female genital conditions_Days,healthcare_utilisation
 Other disorders of the genitourinary system_Days,healthcare_utilisation
-"Pregnancy, childbirth and the puerperium_Days",healthcare_utilisation
+Pregnancy_ childbirth and the puerperium_Days,healthcare_utilisation
 Medical abortion_Days,healthcare_utilisation
 Other pregnancy with abortive outcome_Days,healthcare_utilisation
 Complications of pregnancy in the antenatal period_Days,healthcare_utilisation
@@ -148,23 +148,23 @@ Other obstetric conditions_Days,healthcare_utilisation
 Certain conditions originating in the perinatal period_Days,healthcare_utilisation
 Disorders related to short gestation and low birthweight_Days,healthcare_utilisation
 Other conditions originating in the perinatal period_Days,healthcare_utilisation
-"Congenital malformations, deformations and chromosomal abnormalities_Days",healthcare_utilisation
-"Symptoms, signs and abnormal clinical and laboratory findings, n.e.c._Days",healthcare_utilisation
+Congenital malformations_ deformations and chromosomal abnormalities_Days,healthcare_utilisation
+Symptoms_ signs and abnormal clinical and laboratory findings_ n.e.c._Days,healthcare_utilisation
 Pain in throat and chest_Days,healthcare_utilisation
 Abdominal and pelvic Pain_Days,healthcare_utilisation
 Unknown and unspecified causes of morbidity_Days,healthcare_utilisation
-"Other symptoms, signs and abnormal clinical and laboratory findings_Days",healthcare_utilisation
-"Injury, poisoning and other consequences of external causes_Days",healthcare_utilisation
+Other symptoms_ signs and abnormal clinical and laboratory findings_Days,healthcare_utilisation
+Injury_ poisoning and other consequences of external causes_Days,healthcare_utilisation
 Intracranial injury_Days,healthcare_utilisation
 Other injuries to the head_Days,healthcare_utilisation
 Fracture of forearm_Days,healthcare_utilisation
 Fracture of femur_Days,healthcare_utilisation
-"Fracture of lower leg, including ankle_Days",healthcare_utilisation
+Fracture of lower leg_ including ankle_Days,healthcare_utilisation
 Other injuries_Days,healthcare_utilisation
 Burns and corrosions_Days,healthcare_utilisation
-"Poisonings by drugs, medicaments, and biological substances and toxic effects_Days",healthcare_utilisation
-"Complications of Surgical and medical care, n.e.c._Days",healthcare_utilisation
-"Sequelae of injuries, of poisoning and of Other external causes_Days",healthcare_utilisation
+Poisonings by drugs_ medicaments_ and biological substances and toxic effects_Days,healthcare_utilisation
+Complications of Surgical and medical care_ n.e.c._Days,healthcare_utilisation
+Sequelae of injuries_ of poisoning and of Other external causes_Days,healthcare_utilisation
 Other and unspecified effects of external causes_Days,healthcare_utilisation
 Factors influencing health status and contact with health services_Days,healthcare_utilisation
 Medical observation and evaluation for suspected diseases and conditions_Days,healthcare_utilisation
@@ -174,10 +174,10 @@ Other medical care (including radiotherapy and chemotherapy sessions)_Days,healt
 Other factors influencing Health status and contact with Health services_Days,healthcare_utilisation
 Curative care bed-days_Number per capita,hospital_aggregates
 Curative care occupancy rate_% of available beds,hospital_aggregates
-"Cervical cancer screening, programme data_% of females aged 20-69 screened",screening
-"Cervical cancer screening, survey data_% of females aged 20-69 screened",screening
-"Breast cancer screening, programme data_% of females aged 50-69 screened",screening
-"Breast cancer screening, survey data_% of females aged 50-69 screened",screening
+Cervical cancer screening_ programme data_% of females aged 20-69 screened,screening
+Cervical cancer screening_ survey data_% of females aged 20-69 screened,screening
+Breast cancer screening_ programme data_% of females aged 50-69 screened,screening
+Breast cancer screening_ survey data_% of females aged 50-69 screened,screening
 Infectious and parasitic diseases_Number,alos
 Infectious and parasitic diseases_Per 100 000 population,alos
 Intestinal infectious diseases except diarrhoea_Number,alos
@@ -194,10 +194,10 @@ Other infectious and parasitic diseases_Number,alos
 Other infectious and parasitic diseases_Per 100 000 population,alos
 Neoplasms_Number,hospital_discharges
 Neoplasms_Per 100 000 population,hospital_discharges
-"Malignant neoplasm of colon, rectum and anus_Number",hospital_discharges
-"Malignant neoplasm of colon, rectum and anus_Per 100 000 population",hospital_discharges
-"Malignant neoplasm of trachea, bronchus and lung_Number",hospital_discharges
-"Malignant neoplasm of trachea, bronchus and lung_Per 100 000 population",hospital_discharges
+Malignant neoplasm of colon_ rectum and anus_Number,hospital_discharges
+Malignant neoplasm of colon_ rectum and anus_Per 100 000 population,hospital_discharges
+Malignant neoplasm of trachea_ bronchus and lung_Number,hospital_discharges
+Malignant neoplasm of trachea_ bronchus and lung_Per 100 000 population,hospital_discharges
 Malignant neoplasm of skin_Number,hospital_discharges
 Malignant neoplasm of skin_Per 100 000 population,hospital_discharges
 Malignant neoplasm of breast_Number,hospital_discharges
@@ -214,8 +214,8 @@ Other Malignant neoplasms_Number,hospital_discharges
 Other Malignant neoplasms_Per 100 000 population,hospital_discharges
 Carcinoma in situ_Number,hospital_discharges
 Carcinoma in situ_Per 100 000 population,hospital_discharges
-"Benign neoplasm of colon, rectum and anus_Number",hospital_discharges
-"Benign neoplasm of colon, rectum and anus_Per 100 000 population",hospital_discharges
+Benign neoplasm of colon_ rectum and anus_Number,hospital_discharges
+Benign neoplasm of colon_ rectum and anus_Per 100 000 population,hospital_discharges
 Leiomyoma of uterus_Number,hospital_discharges
 Leiomyoma of uterus_Per 100 000 females,hospital_discharges
 Other Benign neoplasms and neoplasms of uncertain or unknown behaviour_Number,hospital_discharges
@@ -226,12 +226,12 @@ Anaemias_Number,hospital_discharges
 Anaemias_Per 100 000 population,hospital_discharges
 Other diseases of the blood and bloodforming organs_Number,hospital_discharges
 Other diseases of the blood and bloodforming organs_Per 100 000 population,hospital_discharges
-"Endocrine, nutritional and metabolic diseases_Number",hospital_discharges
-"Endocrine, nutritional and metabolic diseases_Per 100 000 population",hospital_discharges
+Endocrine_ nutritional and metabolic diseases_Number,hospital_discharges
+Endocrine_ nutritional and metabolic diseases_Per 100 000 population,hospital_discharges
 Diabetes mellitus_Number,hospital_discharges
 Diabetes mellitus_Per 100 000 population,hospital_discharges
-"Other endocrine, nutritional and metabolic diseases_Number",hospital_discharges
-"Other endocrine, nutritional and metabolic diseases_Per 100 000 population",hospital_discharges
+Other endocrine_ nutritional and metabolic diseases_Number,hospital_discharges
+Other endocrine_ nutritional and metabolic diseases_Per 100 000 population,hospital_discharges
 Mental and behavioural disorders_Number,hospital_discharges
 Mental and behavioural disorders_Per 100 000 population,hospital_discharges
 Dementia_Number,hospital_discharges
@@ -240,8 +240,8 @@ Mental and behavioural disorders due to alcohol_Number,hospital_discharges
 Mental and behavioural disorders due to alcohol_Per 100 000 population,hospital_discharges
 Mental and behavioural disorders due to use of Other psychoactive substance_Number,hospital_discharges
 Mental and behavioural disorders due to use of Other psychoactive substance_Per 100 000 population,hospital_discharges
-"Schizophrenia, schizotypal and delusional disorders_Number",hospital_discharges
-"Schizophrenia, schizotypal and delusional disorders_Per 100 000 population",hospital_discharges
+Schizophrenia_ schizotypal and delusional disorders_Number,hospital_discharges
+Schizophrenia_ schizotypal and delusional disorders_Per 100 000 population,hospital_discharges
 Mood (affective) disorders_Number,hospital_discharges
 Mood (affective) disorders_Per 100 000 population,hospital_discharges
 Other Mental and behavioural disorders_Number,hospital_discharges
@@ -312,8 +312,8 @@ Diseases of the digestive system_Number,hospital_discharges
 Diseases of the digestive system_Per 100 000 population,hospital_discharges
 Disorders of teeth and supporting structures_Number,hospital_discharges
 Disorders of teeth and supporting structures_Per 100 000 population,hospital_discharges
-"Other diseases of oral cavity, salivary glands and jaws_Number",hospital_discharges
-"Other diseases of oral cavity, salivary glands and jaws_Per 100 000 population",hospital_discharges
+Other diseases of oral cavity_ salivary glands and jaws_Number,hospital_discharges
+Other diseases of oral cavity_ salivary glands and jaws_Per 100 000 population,hospital_discharges
 Diseases of oesophagus_Number,hospital_discharges
 Diseases of oesophagus_Per 100 000 population,hospital_discharges
 Peptic ulcer_Number,hospital_discharges
@@ -354,8 +354,8 @@ Diseases of the skin and subcutaneous tissue_Number,hospital_discharges
 Diseases of the skin and subcutaneous tissue_Per 100 000 population,hospital_discharges
 Infections of the skin and subcutaneous tissue_Number,hospital_discharges
 Infections of the skin and subcutaneous tissue_Per 100 000 population,hospital_discharges
-"Dermatitis, eczema and papulosquamous disorders_Number",hospital_discharges
-"Dermatitis, eczema and papulosquamous disorders_Per 100 000 population",hospital_discharges
+Dermatitis_ eczema and papulosquamous disorders_Number,hospital_discharges
+Dermatitis_ eczema and papulosquamous disorders_Per 100 000 population,hospital_discharges
 Other diseases of the skin and subcutaneous tissue_Number,hospital_discharges
 Other diseases of the skin and subcutaneous tissue_Per 100 000 population,hospital_discharges
 Diseases of musculoskeletal system and connective tissue_Number,hospital_discharges
@@ -398,12 +398,12 @@ Disorders of breast_Number,hospital_discharges
 Disorders of breast_Per 100 000 females,hospital_discharges
 Inflammatory diseases of Female pelvic organs_Number,hospital_discharges
 Inflammatory diseases of Female pelvic organs_Per 100 000 females,hospital_discharges
-"Menstrual, menopausal and Other Female genital conditions_Number",hospital_discharges
-"Menstrual, menopausal and Other Female genital conditions_Per 100 000 females",hospital_discharges
+Menstrual_ menopausal and Other Female genital conditions_Number,hospital_discharges
+Menstrual_ menopausal and Other Female genital conditions_Per 100 000 females,hospital_discharges
 Other disorders of the genitourinary system_Number,hospital_discharges
 Other disorders of the genitourinary system_Per 100 000 females,hospital_discharges
-"Pregnancy, childbirth and the puerperium_Number",hospital_discharges
-"Pregnancy, childbirth and the puerperium_Per 100 000 females",hospital_discharges
+Pregnancy_ childbirth and the puerperium_Number,hospital_discharges
+Pregnancy_ childbirth and the puerperium_Per 100 000 females,hospital_discharges
 Medical abortion_Number,hospital_discharges
 Medical abortion_Per 100 000 females,hospital_discharges
 Other pregnancy with abortive outcome_Number,hospital_discharges
@@ -426,20 +426,20 @@ Disorders related to short gestation and low birthweight_Number,hospital_dischar
 Disorders related to short gestation and low birthweight_Per 100 000 population,hospital_discharges
 Other conditions originating in the perinatal period_Number,hospital_discharges
 Other conditions originating in the perinatal period_Per 100 000 population,hospital_discharges
-"Congenital malformations, deformations and chromosomal abnormalities_Number",hospital_discharges
-"Congenital malformations, deformations and chromosomal abnormalities_Per 100 000 population",hospital_discharges
-"Symptoms, signs and abnormal clinical and laboratory findings, n.e.c._Number",hospital_discharges
-"Symptoms, signs and abnormal clinical and laboratory findings, n.e.c._Per 100 000 population",hospital_discharges
+Congenital malformations_ deformations and chromosomal abnormalities_Number,hospital_discharges
+Congenital malformations_ deformations and chromosomal abnormalities_Per 100 000 population,hospital_discharges
+Symptoms_ signs and abnormal clinical and laboratory findings_ n.e.c._Number,hospital_discharges
+Symptoms_ signs and abnormal clinical and laboratory findings_ n.e.c._Per 100 000 population,hospital_discharges
 Pain in throat and chest_Number,hospital_discharges
 Pain in throat and chest_Per 100 000 population,hospital_discharges
 Abdominal and pelvic Pain_Number,hospital_discharges
 Abdominal and pelvic Pain_Per 100 000 population,hospital_discharges
 Unknown and unspecified causes of morbidity_Number,hospital_discharges
 Unknown and unspecified causes of morbidity_Per 100 000 population,hospital_discharges
-"Other symptoms, signs and abnormal clinical and laboratory findings_Number",hospital_discharges
-"Other symptoms, signs and abnormal clinical and laboratory findings_Per 100 000 population",hospital_discharges
-"Injury, poisoning and other consequences of external causes_Number",hospital_discharges
-"Injury, poisoning and other consequences of external causes_Per 100 000 population",hospital_discharges
+Other symptoms_ signs and abnormal clinical and laboratory findings_Number,hospital_discharges
+Other symptoms_ signs and abnormal clinical and laboratory findings_Per 100 000 population,hospital_discharges
+Injury_ poisoning and other consequences of external causes_Number,hospital_discharges
+Injury_ poisoning and other consequences of external causes_Per 100 000 population,hospital_discharges
 Intracranial injury_Number,hospital_discharges
 Intracranial injury_Per 100 000 population,hospital_discharges
 Other injuries to the head_Number,hospital_discharges
@@ -448,18 +448,18 @@ Fracture of forearm_Number,hospital_discharges
 Fracture of forearm_Per 100 000 population,hospital_discharges
 Fracture of femur_Number,hospital_discharges
 Fracture of femur_Per 100 000 population,hospital_discharges
-"Fracture of lower leg, including ankle_Number",hospital_discharges
-"Fracture of lower leg, including ankle_Per 100 000 population",hospital_discharges
+Fracture of lower leg_ including ankle_Number,hospital_discharges
+Fracture of lower leg_ including ankle_Per 100 000 population,hospital_discharges
 Other injuries_Number,hospital_discharges
 Other injuries_Per 100 000 population,hospital_discharges
 Burns and corrosions_Number,hospital_discharges
 Burns and corrosions_Per 100 000 population,hospital_discharges
-"Poisonings by drugs, medicaments, and biological substances and toxic effects_Number",hospital_discharges
-"Poisonings by drugs, medicaments, and biological substances and toxic effects_Per 100 000 population",hospital_discharges
-"Complications of Surgical and medical care, n.e.c._Number",hospital_discharges
-"Complications of Surgical and medical care, n.e.c._Per 100 000 population",hospital_discharges
-"Sequelae of injuries, of poisoning and of Other external causes_Number",hospital_discharges
-"Sequelae of injuries, of poisoning and of Other external causes_Per 100 000 population",hospital_discharges
+Poisonings by drugs_ medicaments_ and biological substances and toxic effects_Number,hospital_discharges
+Poisonings by drugs_ medicaments_ and biological substances and toxic effects_Per 100 000 population,hospital_discharges
+Complications of Surgical and medical care_ n.e.c._Number,hospital_discharges
+Complications of Surgical and medical care_ n.e.c._Per 100 000 population,hospital_discharges
+Sequelae of injuries_ of poisoning and of Other external causes_Number,hospital_discharges
+Sequelae of injuries_ of poisoning and of Other external causes_Per 100 000 population,hospital_discharges
 Other and unspecified effects of external causes_Number,hospital_discharges
 Other and unspecified effects of external causes_Per 100 000 population,hospital_discharges
 Factors influencing health status and contact with health services_Number,hospital_discharges
@@ -545,7 +545,7 @@ Open prostatectomy_% performed as day cases,hospital_discharges
 Inpatient care discharges (all hospitals)_Number,hospital_discharges
 Open prostatectomy_% performed as inpatient cases,hospital_discharges
 Partial excision of mammary gland_% performed as inpatient cases,hospital_discharges
-"Positron Emission Tomography (PET) exams, total_Per scanner",hospital_discharges
+Positron Emission Tomography (PET) exams_ total_Per scanner,hospital_discharges
 Hip replacement_% performed as day cases,hospital_discharges
 Hysterectomy_% performed as day cases,hospital_discharges
 Curative care discharges_Number,hospital_discharges
@@ -558,7 +558,7 @@ Curative care bed-days_Number,hospital_discharges
 Total knee replacement_% performed as inpatient cases,hospital_discharges
 Stem cell transplantation_% performed as day cases,hospital_discharges
 Inpatient care average length of stay (all hospitals)_Days,hospital_discharges
-"Positron Emission Tomography (PET) exams, in ambulatory care_Per scanner",hospital_discharges
+Positron Emission Tomography (PET) exams_ in ambulatory care_Per scanner,hospital_discharges
 Coronary artery bypass graft_% performed as day cases,hospital_discharges
 Hip replacement_% performed as inpatient cases,hospital_discharges
 Inpatient care discharges (all hospitals)_Per 100 000 population,hospital_discharges
@@ -583,7 +583,7 @@ Laparoscopic repair of Inguinal hernia_% performed as day cases,hospital_dischar
 Laparoscopic repair of Inguinal hernia_% performed as inpatient cases,hospital_discharges
 Laparoscopic hysterectomy_% performed as inpatient cases,hospital_discharges
 Laparoscopic appendectomy_% performed as inpatient cases,hospital_discharges
-"Positron Emission Tomography (PET) exams, in hospitals_Per scanner",hospital_discharges
+Positron Emission Tomography (PET) exams_ in hospitals_Per scanner,hospital_discharges
 Coronary artery bypass graft_Day cases per 100 000 population,hospital_discharges
 Laparoscopic appendectomy_Number of inpatient cases,hospital_discharges
 Hysterectomy_Total procedures per 100 000 females,hospital_discharges
@@ -603,14 +603,14 @@ Total knee replacement_Number of day cases,hospital_discharges
 Laparoscopic appendectomy_Total number of procedures,hospital_discharges
 Hip replacement_Day cases per 100 000 population,hospital_discharges
 Laparoscopic hysterectomy_Number of inpatient cases,hospital_discharges
-"Positron Emission Tomography (PET) exams, in hospitals_Number",hospital_discharges
+Positron Emission Tomography (PET) exams_ in hospitals_Number,hospital_discharges
 Total knee replacement_Total procedures per 100 000 population,hospital_discharges
 Transluminal coronary angioplasty_Day cases per 100 000 population,hospital_discharges
 Open prostatectomy_Total procedures per 100 000 males,hospital_discharges
 Cataract surgery_Outpatient cases per 100 000 population,hospital_discharges
 Stem cell transplantation_Total procedures per 100 000 population,hospital_discharges
-"Positron Emission Tomography (PET) exams, total_Per 1 000 population",hospital_discharges
-"Positron Emission Tomography (PET) exams, in hospitals_Per 1 000 population",hospital_discharges
+Positron Emission Tomography (PET) exams_ total_Per 1 000 population,hospital_discharges
+Positron Emission Tomography (PET) exams_ in hospitals_Per 1 000 population,hospital_discharges
 Laparoscopic repair of Inguinal hernia_Total number of procedures,hospital_discharges
 Transluminal coronary angioplasty_Number of day cases,hospital_discharges
 Caesarean section_Number of day cases,hospital_discharges
@@ -625,8 +625,8 @@ Hip replacement_Number of day cases,hospital_discharges
 Transurethral prostatectomy_Day cases per 100 000 males,hospital_discharges
 Caesarean section_Day cases procedures per 1 000 live births,hospital_discharges
 Laparoscopic appendectomy_Day cases per 100 000 population,hospital_discharges
-"Positron Emission Tomography (PET) exams, total_Number",hospital_discharges
-"Positron Emission Tomography (PET) exams, in ambulatory care_Number",hospital_discharges
+Positron Emission Tomography (PET) exams_ total_Number,hospital_discharges
+Positron Emission Tomography (PET) exams_ in ambulatory care_Number,hospital_discharges
 Total knee replacement_Day cases procedures per 1 000 population aged 65 years old and over,hospital_discharges
 Laparoscopic repair of Inguinal hernia_Number of day cases,hospital_discharges
 Transluminal coronary angioplasty_Total procedures per 100 000 population,hospital_discharges
@@ -651,7 +651,7 @@ Total mastectomy_Total procedures per 100 000 females,hospital_discharges
 Stem cell transplantation_Day cases per 100 000 population,hospital_discharges
 Appendectomy_Total number of procedures,hospital_discharges
 Transluminal coronary angioplasty_Total number of procedures,hospital_discharges
-"Positron Emission Tomography (PET) exams, in ambulatory care_Per 1 000 population",hospital_discharges
+Positron Emission Tomography (PET) exams_ in ambulatory care_Per 1 000 population,hospital_discharges
 Partial excision of mammary gland_Day cases per 100 000 females,hospital_discharges
 Open prostatectomy_Number of day cases,hospital_discharges
 Coronary artery bypass graft_Total procedures per 100 000 population,hospital_discharges
@@ -676,22 +676,22 @@ Knee replacement_Waiting times of patients on the list: % of all patients waitin
 Prostatectomy_Waiting times of patients on the list: Mean (days),waiting_times
 Prostatectomy_Waiting times from specialist assessment to treatment: Median (days),waiting_times
 Knee replacement_Waiting times from specialist assessment to treatment: Mean (days),waiting_times
-"Hip replacement (total and partial, including the revision of hip replacement)_Waiting times from specialist assessment to treatment: % of all patients waiting more than 3 months",waiting_times
+Hip replacement (total and partial_ including the revision of hip replacement)_Waiting times from specialist assessment to treatment: % of all patients waiting more than 3 months,waiting_times
 Coronary bypass_Waiting times of patients on the list: Median (days),waiting_times
 Cataract surgery_Waiting times from specialist assessment to treatment: % of all patients waiting more than 3 months,waiting_times
 Percutaneous transluminal coronary angioplasty (PTCA)_Waiting times of patients on the list: % of all patients waiting more than 3 months,waiting_times
 Knee replacement_Waiting times from specialist assessment to treatment: % of all patients waiting more than 3 months,waiting_times
-"Hip replacement (total and partial, including the revision of hip replacement)_Waiting times of patients on the list: Median (days)",waiting_times
+Hip replacement (total and partial_ including the revision of hip replacement)_Waiting times of patients on the list: Median (days),waiting_times
 Coronary bypass_Waiting times from specialist assessment to treatment: % of all patients waiting more than 3 months,waiting_times
 Cataract surgery_Waiting times from specialist assessment to treatment: Mean (days),waiting_times
 Coronary bypass_Waiting times from specialist assessment to treatment: Median (days),waiting_times
 Hysterectomy_Waiting times of patients on the list: % of all patients waiting more than 3 months,waiting_times
 Hysterectomy_Waiting times from specialist assessment to treatment: % of all patients waiting more than 3 months,waiting_times
-"Hip replacement (total and partial, including the revision of hip replacement)_Waiting times from specialist assessment to treatment: Median (days)",waiting_times
-"Hip replacement (total and partial, including the revision of hip replacement)_Waiting times of patients on the list: Mean (days)",waiting_times
+Hip replacement (total and partial_ including the revision of hip replacement)_Waiting times from specialist assessment to treatment: Median (days),waiting_times
+Hip replacement (total and partial_ including the revision of hip replacement)_Waiting times of patients on the list: Mean (days),waiting_times
 Percutaneous transluminal coronary angioplasty (PTCA)_Waiting times from specialist assessment to treatment: % of all patients waiting more than 3 months,waiting_times
 Cataract surgery_Waiting times of patients on the list: Mean (days),waiting_times
-"Hip replacement (total and partial, including the revision of hip replacement)_Waiting times from specialist assessment to treatment: Mean (days)",waiting_times
+Hip replacement (total and partial_ including the revision of hip replacement)_Waiting times from specialist assessment to treatment: Mean (days),waiting_times
 Hysterectomy_Waiting times from specialist assessment to treatment: Mean (days),waiting_times
 Percutaneous transluminal coronary angioplasty (PTCA)_Waiting times of patients on the list: Mean (days),waiting_times
 Hysterectomy_Waiting times from specialist assessment to treatment: Median (days),waiting_times
@@ -700,7 +700,7 @@ Percutaneous transluminal coronary angioplasty (PTCA)_Waiting times from special
 Prostatectomy_Waiting times from specialist assessment to treatment: % of all patients waiting more than 3 months,waiting_times
 Knee replacement_Waiting times of patients on the list: Median (days),waiting_times
 Coronary bypass_Waiting times of patients on the list: % of all patients waiting more than 3 months,waiting_times
-"Hip replacement (total and partial, including the revision of hip replacement)_Waiting times of patients on the list: % of all patients waiting more than 3 months",waiting_times
+Hip replacement (total and partial_ including the revision of hip replacement)_Waiting times of patients on the list: % of all patients waiting more than 3 months,waiting_times
 Coronary bypass_Waiting times from specialist assessment to treatment: Mean (days),waiting_times
 Coronary bypass_Waiting times of patients on the list: Mean (days),waiting_times
 Percutaneous transluminal coronary angioplasty (PTCA)_Waiting times from specialist assessment to treatment: Median (days),waiting_times
@@ -709,10 +709,10 @@ Hysterectomy_Waiting times of patients on the list: Mean (days),waiting_times
 Prostatectomy_Waiting times of patients on the list: Median (days),waiting_times
 Hysterectomy_Waiting times of patients on the list: Median (days),waiting_times
 Prostatectomy_Waiting times of patients on the list: % of all patients waiting more than 3 months,waiting_times
-"Colorectal cancer screening, programme data_% of population aged 50-74 screened",screening
-"Colorectal cancer screening, survey data_% of population aged 50-74 screened",screening
-"Colorectal cancer screening, programme data_% of females aged 50-74 screened",screening
-"Colorectal cancer screening, survey data_% of males aged 50-74 screened",screening
-"Colorectal cancer screening, survey data_% of females aged 50-74 screened",screening
-"Colorectal cancer screening, programme data_% of males aged 50-74 screened",screening
+Colorectal cancer screening_ programme data_% of population aged 50-74 screened,screening
+Colorectal cancer screening_ survey data_% of population aged 50-74 screened,screening
+Colorectal cancer screening_ programme data_% of females aged 50-74 screened,screening
+Colorectal cancer screening_ survey data_% of males aged 50-74 screened,screening
+Colorectal cancer screening_ survey data_% of females aged 50-74 screened,screening
+Colorectal cancer screening_ programme data_% of males aged 50-74 screened,screening
 ,screening
