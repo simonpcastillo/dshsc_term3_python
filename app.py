@@ -6,6 +6,8 @@ import matplotlib
 
 app_ui = ui.page_fluid(
     ui.output_ui("Countries_from_data"),
+    ui.output_ui("datasets_from_data"),
+    ui.output_ui("variables_filtered_dataset"),
     ui.output_ui("slider_years_values_from_data"),
     ui.output_table("table_all_data_with_year_from_slider")
 )
@@ -42,6 +44,7 @@ def server(input, output, session):
     async def refreshData():
         global deaths_df
         global columns_dataset_df
+        columns_dataset_df
         data_so_far = deaths_df.get()
         if data_so_far.empty == True:
             print("started loading online data")
@@ -61,9 +64,29 @@ def server(input, output, session):
         unique_countries = sorted(list(set(loaded_df['country'])))
         country_dict = dict(zip(unique_countries, unique_countries))
     
-        return ui.input_select("Select", "Select from:", country_dict, multiple=True)
+        return ui.input_selectize("selected_countries", "Select from:", country_dict, multiple=True)
     
+    @output
+    @render.ui
+    def datasets_from_data():
+        global columns_dataset_df
+        columns_dataset_df = columns_dataset_df
+        list_columns = list(columns_dataset_df['health_dataset'])
+        list_columns_dict = dict(zip(list_columns,list_columns))
+        return ui.input_selectize("datasets_included", "Select dataset(s):", list_columns_dict )
+
+    @output
+    @render.ui
+    async def variables_filtered_dataset():
+        global columns_dataset_df
+        columns_dataset_df = columns_dataset_df
+        list_variables = list(columns_dataset_df[columns_dataset_df['health_dataset'].isin([input.datasets_included()])]['column'])
+        list_variables_dict = dict(zip(list_variables,list_variables))
+        return ui.input_select("variable_to_plot", "Select variable:", list_variables_dict)
         
+
+
+
     
     @output
     @render.ui
@@ -87,8 +110,8 @@ def server(input, output, session):
         loaded_df = deaths_df.get()
         
         selected_year = input.slider_years_2()
-        demo_countries = ['Ireland', 'India']
-        demo_columns = ['country','Immunisation: Hepatitis B_% of children immunised']
+        demo_countries = input.selected_countries()
+        demo_columns = ['country', input.variable_to_plot()]
         
         filtered_data = loaded_df[ (loaded_df['year'] == selected_year) & (loaded_df['country'].isin(demo_countries))].reindex()
         return filtered_data[demo_columns]
