@@ -194,10 +194,10 @@ Other infectious and parasitic diseases_Number,alos
 Other infectious and parasitic diseases_Per 100 000 population,alos
 Neoplasms_Number,hospital_discharges
 Neoplasms_Per 100 000 population,hospital_discharges
-Malignant neoplasm of colon_ rectum and anus_Number,hospital_discharges
-Malignant neoplasm of colon_ rectum and anus_Per 100 000 population,hospital_discharges
-Malignant neoplasm of trachea_ bronchus and lung_Number,hospital_discharges
-Malignant neoplasm of trachea_ bronchus and lung_Per 100 000 population,hospital_discharges
+"Malignant neoplasm of colon, rectum and anus_Number",hospital_discharges
+"Malignant neoplasm of colon, rectum and anus_Per 100 000 population",hospital_discharges
+"Malignant neoplasm of trachea, bronchus and lung_Number",hospital_discharges
+"Malignant neoplasm of trachea, bronchus and lung_Per 100 000 population",hospital_discharges
 Malignant neoplasm of skin_Number,hospital_discharges
 Malignant neoplasm of skin_Per 100 000 population,hospital_discharges
 Malignant neoplasm of breast_Number,hospital_discharges
@@ -226,8 +226,8 @@ Anaemias_Number,hospital_discharges
 Anaemias_Per 100 000 population,hospital_discharges
 Other diseases of the blood and bloodforming organs_Number,hospital_discharges
 Other diseases of the blood and bloodforming organs_Per 100 000 population,hospital_discharges
-Endocrine_ nutritional and metabolic diseases_Number,hospital_discharges
-Endocrine_ nutritional and metabolic diseases_Per 100 000 population,hospital_discharges
+"Endocrine, nutritional and metabolic diseases_Number",hospital_discharges
+"Endocrine, nutritional and metabolic diseases_Per 100 000 population",hospital_discharges
 Diabetes mellitus_Number,hospital_discharges
 Diabetes mellitus_Per 100 000 population,hospital_discharges
 Other endocrine_ nutritional and metabolic diseases_Number,hospital_discharges
@@ -240,8 +240,8 @@ Mental and behavioural disorders due to alcohol_Number,hospital_discharges
 Mental and behavioural disorders due to alcohol_Per 100 000 population,hospital_discharges
 Mental and behavioural disorders due to use of Other psychoactive substance_Number,hospital_discharges
 Mental and behavioural disorders due to use of Other psychoactive substance_Per 100 000 population,hospital_discharges
-Schizophrenia_ schizotypal and delusional disorders_Number,hospital_discharges
-Schizophrenia_ schizotypal and delusional disorders_Per 100 000 population,hospital_discharges
+"Schizophrenia, schizotypal and delusional disorders_Number",hospital_discharges
+"Schizophrenia, schizotypal and delusional disorders_Per 100 000 population",hospital_discharges
 Mood (affective) disorders_Number,hospital_discharges
 Mood (affective) disorders_Per 100 000 population,hospital_discharges
 Other Mental and behavioural disorders_Number,hospital_discharges
@@ -428,8 +428,8 @@ Other conditions originating in the perinatal period_Number,hospital_discharges
 Other conditions originating in the perinatal period_Per 100 000 population,hospital_discharges
 Congenital malformations_ deformations and chromosomal abnormalities_Number,hospital_discharges
 Congenital malformations_ deformations and chromosomal abnormalities_Per 100 000 population,hospital_discharges
-Symptoms_ signs and abnormal clinical and laboratory findings_ n.e.c._Number,hospital_discharges
-Symptoms_ signs and abnormal clinical and laboratory findings_ n.e.c._Per 100 000 population,hospital_discharges
+"Symptoms, signs and abnormal clinical and laboratory findings, n.e.c._Number",hospital_discharges
+"Symptoms, signs and abnormal clinical and laboratory findings, n.e.c._Per 100 000 population",hospital_discharges
 Pain in throat and chest_Number,hospital_discharges
 Pain in throat and chest_Per 100 000 population,hospital_discharges
 Abdominal and pelvic Pain_Number,hospital_discharges
@@ -687,9 +687,9 @@ Cataract surgery_Waiting times from specialist assessment to treatment: Mean (da
 Coronary bypass_Waiting times from specialist assessment to treatment: Median (days),waiting_times
 Hysterectomy_Waiting times of patients on the list: % of all patients waiting more than 3 months,waiting_times
 Hysterectomy_Waiting times from specialist assessment to treatment: % of all patients waiting more than 3 months,waiting_times
-Hip replacement (total and partial_ including the revision of hip replacement)_Waiting times from specialist assessment to treatment: Median (days),waiting_times
-Hip replacement (total and partial_ including the revision of hip replacement)_Waiting times of patients on the list: Mean (days),waiting_times
-Percutaneous transluminal coronary angioplasty (PTCA)_Waiting times from specialist assessment to treatment: % of all patients waiting more than 3 months,waiting_times
+"Hip replacement (total and partial, including the revision of hip replacement)_Waiting times from specialist assessment to treatment: Median (days)",waiting_times
+"Hip replacement (total and partial, including the revision of hip replacement)_Waiting times of patients on the list: Mean (days)",waiting_times
+"Percutaneous transluminal coronary angioplasty (PTCA),Waiting times from specialist assessment to treatment: % of all patients waiting more than 3 months",waiting_times
 Cataract surgery_Waiting times of patients on the list: Mean (days),waiting_times
 Hip replacement (total and partial_ including the revision of hip replacement)_Waiting times from specialist assessment to treatment: Mean (days),waiting_times
 Hysterectomy_Waiting times from specialist assessment to treatment: Mean (days),waiting_times
