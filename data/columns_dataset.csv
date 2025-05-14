@@ -174,10 +174,10 @@ Other medical care (including radiotherapy and chemotherapy sessions)_Days,healt
 Other factors influencing Health status and contact with Health services_Days,healthcare_utilisation
 Curative care bed-days_Number per capita,hospital_aggregates
 Curative care occupancy rate_% of available beds,hospital_aggregates
-Cervical cancer screening_ programme data_% of females aged 20-69 screened,screening
-Cervical cancer screening_ survey data_% of females aged 20-69 screened,screening
-Breast cancer screening_ programme data_% of females aged 50-69 screened,screening
-Breast cancer screening_ survey data_% of females aged 50-69 screened,screening
+"Cervical cancer screening, programme data_% of females aged 20-69 screened",screening
+"Cervical cancer screening, survey data_% of females aged 20-69 screened",screening
+"Breast cancer screening, programme data_% of females aged 50-69 screened",screening
+"Breast cancer screening, survey data_% of females aged 50-69 screened",screening
 Infectious and parasitic diseases_Number,alos
 Infectious and parasitic diseases_Per 100 000 population,alos
 Intestinal infectious diseases except diarrhoea_Number,alos
@@ -214,8 +214,8 @@ Other Malignant neoplasms_Number,hospital_discharges
 Other Malignant neoplasms_Per 100 000 population,hospital_discharges
 Carcinoma in situ_Number,hospital_discharges
 Carcinoma in situ_Per 100 000 population,hospital_discharges
-Benign neoplasm of colon_ rectum and anus_Number,hospital_discharges
-Benign neoplasm of colon_ rectum and anus_Per 100 000 population,hospital_discharges
+"Benign neoplasm of colon, rectum and anus_Number",hospital_discharges
+"Benign neoplasm of colon, rectum and anus_Per 100 000 population",hospital_discharges
 Leiomyoma of uterus_Number,hospital_discharges
 Leiomyoma of uterus_Per 100 000 females,hospital_discharges
 Other Benign neoplasms and neoplasms of uncertain or unknown behaviour_Number,hospital_discharges
