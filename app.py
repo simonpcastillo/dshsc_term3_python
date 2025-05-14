@@ -3,12 +3,17 @@ import pandas as pd
 from io import StringIO
 import pyodide.http
 import matplotlib
+import plotly.express as px
+from shinywidgets import render_widget  
+from shinywidgets import output_widget, render_widget  
 
 app_ui = ui.page_fluid(
     ui.output_ui("Countries_from_data"),
     ui.output_ui("datasets_from_data"),
     ui.output_ui("variables_filtered_dataset"),
     ui.output_ui("slider_years_values_from_data"),
+    #ui.output_plot("plot_timeseries"),
+    output_widget("plot_timeseries"),
     ui.output_table("table_all_data_with_year_from_slider")
 )
 
@@ -64,7 +69,7 @@ def server(input, output, session):
         unique_countries = sorted(list(set(loaded_df['country'])))
         country_dict = dict(zip(unique_countries, unique_countries))
     
-        return ui.input_selectize("selected_countries", "Select from:", country_dict, multiple=True)
+        return ui.input_selectize("selected_countries", "Select country(ies):", country_dict, multiple=True)
     
     @output
     @render.ui
@@ -73,7 +78,7 @@ def server(input, output, session):
         columns_dataset_df = columns_dataset_df
         list_columns = list(columns_dataset_df['health_dataset'])
         list_columns_dict = dict(zip(list_columns,list_columns))
-        return ui.input_selectize("datasets_included", "Select dataset(s):", list_columns_dict )
+        return ui.input_selectize("datasets_included", "Select dataset:", list_columns_dict )
 
     @output
     @render.ui
@@ -84,36 +89,46 @@ def server(input, output, session):
         list_variables_dict = dict(zip(list_variables,list_variables))
         return ui.input_select("variable_to_plot", "Select variable:", list_variables_dict)
         
-
-
-
     
     @output
     @render.ui
     def slider_years_values_from_data():
-        # these first two lines you'll need to put everywhere you are using the data. Then use the variable loaded_df
         global deaths_df
         loaded_df = deaths_df.get()
-        
-        # get values you need to make the inputs (slider boundaries, drop-down options, etc)
         minimum_year = min(loaded_df.year.unique())
         maximum_year = max(loaded_df.year.unique())
-        # use those values:
-        return ui.input_slider("slider_years_2", "Year - this one controlls the table below", minimum_year, maximum_year, maximum_year)
+        return ui.input_slider("slider_years_2", "Year", minimum_year, maximum_year, maximum_year)
+
+    @output
+    @render_widget 
+    async def plot_timeseries():
+        global deaths_df
+        loaded_df = deaths_df.get()
+        selected_year = input.slider_years_2()
+        selected_countries = input.selected_countries()
+        var_plot = input.variable_to_plot()
+        filtered_df = loaded_df[(loaded_df['country'].isin(selected_countries)) & (loaded_df['year'] <=
+ selected_year)]
+
+        fig = px.line(filtered_df, 
+                      x = "year", 
+                      y = var_plot, 
+                      color = 'country',
+                     markers = True).update_traces(textposition="bottom right")
+        return fig
+
     
-    # example table:
+    
     @output
     @render.table
     def table_all_data_with_year_from_slider():
-        # these first two lines you'll need to put everywhere you are using the data. Then use the variable loaded_df
         global deaths_df
         loaded_df = deaths_df.get()
-        
         selected_year = input.slider_years_2()
-        demo_countries = input.selected_countries()
-        demo_columns = ['country', input.variable_to_plot()]
-        
-        filtered_data = loaded_df[ (loaded_df['year'] == selected_year) & (loaded_df['country'].isin(demo_countries))].reindex()
-        return filtered_data[demo_columns]
+        selected_countries = input.selected_countries()
+        var_plot = input.variable_to_plot()
+        filtered_df = loaded_df[(loaded_df['country'].isin(selected_countries)) & (loaded_df['year'] <= selected_year)]
+        summarised_df = filtered_df[['country', var_plot]].groupby("country").mean()
+        return summarised_df
         
 app = App(app_ui, server)
