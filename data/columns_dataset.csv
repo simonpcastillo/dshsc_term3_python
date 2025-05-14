@@ -6,7 +6,7 @@ Immunisation: Measles_% of children immunised,immunisation
 Dentists consultations (in all settings)_Number per capita,consultations
 Doctors consultations (in all settings)_Number per capita,consultations
 "Computed Tomography exams, total_Number",diagnostic_exams
-"Computed Tomography exams,total_Per 1 000 population",diagnostic_exams
+"Computed Tomography exams, total_Per 1 000 population",diagnostic_exams
 "Computed Tomography exams, total_Per scanner",diagnostic_exams
 "Magnetic Resonance Imaging exams, total_Number",diagnostic_exams
 "Magnetic Resonance Imaging exams, total_Per 1 000 population",diagnostic_exams
