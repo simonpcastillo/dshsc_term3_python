@@ -1,7 +1,7 @@
 column,health_dataset
 Immunisation: Hepatitis B_% of children immunised,immunisation
 Immunisation: Influenza_% of population aged 65 years and over,immunisation
-Immunisation: Diphtheria_ Tetanus_ Pertussis_% of children immunised,immunisation
+"Immunisation: Diphtheria, Tetanus, Pertussis_% of children immunised",immunisation
 Immunisation: Measles_% of children immunised,immunisation
 Dentists consultations (in all settings)_Number per capita,consultations
 Doctors consultations (in all settings)_Number per capita,consultations
