@@ -8,21 +8,21 @@ Doctors consultations (in all settings)_Number per capita,consultations
 Computed Tomography exams_ total_Number,diagnostic_exams
 Computed Tomography exams_ total_Per 1 000 population,diagnostic_exams
 Computed Tomography exams_ total_Per scanner,diagnostic_exams
-Magnetic Resonance Imaging exams_ total_Number,diagnostic_exams
-Magnetic Resonance Imaging exams_ total_Per 1 000 population,diagnostic_exams
-Magnetic Resonance Imaging exams_ total_Per scanner,diagnostic_exams
-Computed Tomography exams_ in hospitals_Number,diagnostic_exams
-Computed Tomography exams_ in hospitals_Per 1 000 population,diagnostic_exams
-Computed Tomography exams_ in hospitals_Per scanner,diagnostic_exams
-Computed Tomography exams_ in ambulatory care_Number,diagnostic_exams
-Computed Tomography exams_ in ambulatory care_Per 1 000 population,diagnostic_exams
-Computed Tomography exams_ in ambulatory care_Per scanner,diagnostic_exams
-Magnetic Resonance Imaging exams_ in hospitals_Number,diagnostic_exams
-Magnetic Resonance Imaging exams_ in hospitals_Per 1 000 population,diagnostic_exams
-Magnetic Resonance Imaging exams_ in hospitals_Per scanner,diagnostic_exams
-Magnetic Resonance Imaging exams_ in ambulatory care_Number,diagnostic_exams
-Magnetic Resonance Imaging exams_ in ambulatory care_Per 1 000 population,diagnostic_exams
-Magnetic Resonance Imaging exams_ in ambulatory care_Per scanner,diagnostic_exams
+"Magnetic Resonance Imaging exams, total_Number",diagnostic_exams
+"Magnetic Resonance Imaging exams, total_Per 1 000 population",diagnostic_exams
+"Magnetic Resonance Imaging exams, total_Per scanner",diagnostic_exams
+"Computed Tomography exams, in hospitals_Number",diagnostic_exams
+"Computed Tomography exams, in hospitals_Per 1 000 population",diagnostic_exams
+"Computed Tomography exams, in hospitals_Per scanner",diagnostic_exams
+"Computed Tomography exams, in ambulatory care_Number",diagnostic_exams
+"Computed Tomography exams, in ambulatory care_Per 1 000 population",diagnostic_exams
+"Computed Tomography exams, in ambulatory care_Per scanner",diagnostic_exams
+"Magnetic Resonance Imaging exams, in hospitals_Number",diagnostic_exams
+"Magnetic Resonance Imaging exams, in hospitals_Per 1 000 population",diagnostic_exams
+"Magnetic Resonance Imaging exams, in hospitals_Per scanner",diagnostic_exams
+"Magnetic Resonance Imaging exams, in ambulatory care_Number",diagnostic_exams
+"Magnetic Resonance Imaging exams, in ambulatory care_Per 1 000 population",diagnostic_exams
+"Magnetic Resonance Imaging exams, in ambulatory care_Per scanner",diagnostic_exams
 All causes_Days,healthcare_utilisation
 Infectious and parasitic diseases_Days,healthcare_utilisation
 Intestinal infectious diseases except diarrhoea_Days,healthcare_utilisation
